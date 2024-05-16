@@ -18,7 +18,7 @@
 const loa = ref(false)
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .content {
   min-height: 100vh;
   padding: 3rem 2rem;
