@@ -406,12 +406,8 @@ body {
   color: black;
   text-decoration: none;
   display: block;
-  margin: 0 auto;
+  margin: 8px auto 8px;
   width: fit-content;
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 2rem;
 }
 </style>
 
