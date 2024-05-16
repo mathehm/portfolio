@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "stylelint": "npx stylelint '**/*.{vue,scss}'",
+    "stylelint:fix": "npx stylelint '**/*.{vue,scss}' --fix"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^9.26.0",
+    "nuxt": "^3.11.2",
+    "octokit": "^4.0.2",
+    "sass": "^1.77.1",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@nuxt/eslint": "^0.3.12",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/stylelint-module": "^5.2.0",
+    "@vesp/nuxt-fontawesome": "^1.0.4",
+    "eslint": "^8.57.0",
+    "stylelint": "^16.5.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard-scss": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
