@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@vesp/nuxt-fontawesome',
     '@nuxt/eslint',
-    '@nuxthub/core',
   ],
   googleFonts: {
     families: {

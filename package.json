@@ -15,7 +15,6 @@
     "deploy": "npm run generate && mv dist docs"
   },
   "dependencies": {
-    "@nuxthub/core": "^0.5.17",
     "eslint-plugin-vue": "^9.26.0",
     "nuxt": "^3.11.2",
     "octokit": "^4.0.2",
@@ -34,8 +33,7 @@
     "eslint": "^8.57.0",
     "stylelint": "^16.5.0",
     "stylelint-config-recommended-vue": "^1.5.0",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "wrangler": "^3.56.0"
+    "stylelint-config-standard-scss": "^13.1.0"
   },
   "engines": {
     "node": ">=18.0.0"
