@@ -146,7 +146,8 @@
       href="https://dribbble.com/shots/21766554-Portfolio-Website-V1"
       target="_blank"
       rel="noopener noreferrer"
-    >Inspired by Dribbble</a>
+      class="inpired"
+    >Inspired by <b>Dribbble</b></a>
   </div>
 </template>
 
@@ -399,6 +400,18 @@ body {
     background-color: #0000001f;
     transform: scale(1.05);
   }
+}
+
+.inpired {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 2rem;
 }
 </style>
 
